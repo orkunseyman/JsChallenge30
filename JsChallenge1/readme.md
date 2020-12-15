@@ -1,0 +1,1 @@
+This is first project of Java 30 Days challenge.
