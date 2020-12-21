@@ -1,18 +1,4 @@
-// window.addEventListener('keyup',function (e) {
-//     switch(e.code){
-//         case'KeyA':
-//         const key= document.querySelector('.key[data-key="65"]');
-//         key.style.border=".4rem solid black";
-//         console.log(e);
-//         break;
-//     }
 
-
-// }
-    
-    
-    
-    // )
 
     window.addEventListener('keydown',function (e) {
             
@@ -22,7 +8,7 @@
             if(!sound) return; 
             sound.currentTime = 0; 
             sound.play();
-            key.classList.add('playing');
+            
           }
     
 
